@@ -13,6 +13,6 @@ Capture the decision.
 Preserve the context.
 Keep the standard intact.
 
-# IMOS — Institutional Memory Operating System
+## What it is
 
 Persistent organizational cognition: decisions, verification, attribution, blockers, and institutional memory as an executable system.
