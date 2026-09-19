@@ -1,10 +1,8 @@
 from fastapi import APIRouter
+from imos.services.context_service import ContextService
 
 router = APIRouter()
 
-@router.get("/summary")
+@router.get('/summary')
 def summary():
-    return {
-        "thesis": "Institutional memory as executable organizational cognition",
-        "status": "bootstrap"
-    }
+    return ContextService().executive_summary()
